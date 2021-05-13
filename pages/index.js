@@ -16,8 +16,9 @@ export default function Home({results}) {
 
       <Header />
       <Nav />
-      <Results results={results}/>
-      {/* Main -> Results of the API */}
+      <main>
+        <Results results={results}/>
+      </main>
       {/* Footer */}
 
     </div>

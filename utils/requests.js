@@ -7,7 +7,7 @@ export default {
     },
     fetchTopRated: {
         title: 'Top Rated',
-        url: `/movie/top_rated?api_key=${API_KEY}&with_genres=US` 
+        url: `/movie/top_rated?api_key=${API_KEY}&language=en-US` 
     },
     fetchActionMovies: {
         title: 'Action',
@@ -15,11 +15,11 @@ export default {
     },
     fetchComedyMovies: {
         title: 'Comedy',
-        url: `/discover/Comedy?api_key=${API_KEY}&with_genres=35`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=35`
     },
     fetchHorrorMovies: {
         title: 'Horror',
-        url: `/discover/top_rated?api_key=${API_KEY}&with_genres=27` 
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=27` 
     },
     fetchRomanceMovies: {
         title: 'Romance',
